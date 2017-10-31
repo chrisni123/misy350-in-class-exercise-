@@ -34,5 +34,5 @@ console.log(years);
 
 // Iteratros
 movie_list.forEach(movie => console.log( "-" + movie));
-let new_list = movie_list.filter(movvie => movie.slice(0,1) == "1");
+let new_list = movie_list.filter(movie => movie.slice(0,1) == "1");
 new_list.forEach(movie => console.log( "-" + movie));
